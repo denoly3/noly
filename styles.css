@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+.container3 {
+    /* write declarations here */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ; /* grid-template-column: repeat(3,1fr)*/
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    border: 1px solid rgb(0 0 0 / 10%);
+    width: 350px;
+
+}
+.container3 img{
+  width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 1px;
+     
+}
+
+
+.three { 
+    background-color:#fff ;
+}
+.grip, footer, header{
+    max-width: 840px;
+    margin: 0 auto;
+
+}
+p{
+    
+    margin: 10px;
+    padding: 0.5px;
+    
+
+}
+.grip{
+    display: grid;
+}
+.profile-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.profile-container img{
+    width: 250px;
+    height: 260px;
+    border: 1px solid white;
+    padding: 1px;
+    box-shadow: 0 0 20px gray;
+    border-radius: 50%;
+}
+ figure{
+    text-align: center;
+ }
+
+ figcaption{
+    font-size: 16px;
+    color: #000;
+ }
+ h1, h2{
+    text-align: center;
+    color: darkblue;
+    border-bottom: 1px;
+ }
+ .socialmedia img{
+      width: 30px; 
+      height: 30px;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    border-top: 0.5px solid #000;
+    border: 1px solid rgb(0 0 0 / 10%);
+    font-size: 0.8em,
+    
+}
+.box {
+    margin: 0.5rem;
+    border: 2px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+}
+h3{
+    color: darkblue;
+}
+header{
+    background-color: darkblue;
+    padding: 10px;
+}
+#note{
+    color: #fff;
+}
+.box a{
+    text-decoration: none; 
+    font-weight: 550;
+}
